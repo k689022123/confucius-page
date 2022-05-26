@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>孔子廟</title>
+    <link rel="stylesheet" href="assets/css/confucius_page_style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Monofett&display=swap"
+      rel="stylesheet"
+    />
+    <script src="jquery.js"></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul class="navbar_logo">
+        <li>
+          <a href="http://127.0.0.1:5500/index.html"
+            ><img src="assets/images/home-icon-2.png" alt="home-logo"
+          /></a>
+        </li>
+      </ul>
+
+      <ul class="page_label">
+        <div class="label_div">
+          <a href=""
+            ><li
+              class="navbar_page_label-button"
+              onmouseover="mouseOverStation()"
+              onmouseout="mouseOutStation()"
+            ></li>
+          </a>
+          <p class="label_station">新北投駅</p>
+        </div>
+        <div class="label_div">
+          <a href=""
+            ><li
+              class="navbar_page_label-button"
+              onmouseover="mouseOverLibrary()"
+              onmouseout="mouseOutLibrary()"
+            ></li>
+          </a>
+          <p class="label_Library">北投図書館</p>
+        </div>
+        <div class="label_div">
+          <a href=""
+            ><li
+              class="navbar_page_label-button"
+              onmouseover="mouseOverSpaMuseum()"
+              onmouseout="mouseOutSpaMuseum()"
+            ></li>
+          </a>
+          <p class="label_SpaMuseum">北投温泉博物館</p>
+        </div>
+        <div class="label_div">
+          <a href=""
+            ><li
+              class="navbar_page_label-button"
+              onmouseover="mouseOverPlumBossom()"
+              onmouseout="mouseOutPlumBossom()"
+            ></li>
+          </a>
+          <p class="label_PlumBossom">梅庭</p>
+        </div>
+        <div class="label_div">
+          <a href=""
+            ><li
+              class="navbar_page_label-button"
+              onmouseover="mouseOverNationalPalaceMuseum()"
+              onmouseout="mouseOutNationalPalaceMuseum()"
+            ></li>
+          </a>
+          <p class="label_NationalPalaceMuseum">国立故宮博物館</p>
+        </div>
+        <div class="label_div">
+          <a href=""
+            ><li
+              class="navbar_page_label-button"
+              onmouseover="mouseOverKnowledgeGod()"
+              onmouseout="mouseOutKnowledgeGod()"
+            ></li>
+          </a>
+          <p class="label_KnowledgeGod">文昌宮</p>
+        </div>
+        <div class="label_div">
+          <a href=""
+            ><li
+              class="navbar_page_label-button"
+              onmouseover="mouseOverPocketMuseum()"
+              onmouseout="mouseOutPocketMuseum()"
+            ></li>
+          </a>
+          <p class="label_PocketMuseum">袖珍博物館</p>
+        </div>
+        <div class="label_div">
+          <a href=""
+            ><li
+              class="navbar_page_label-button"
+              onmouseover="mouseOverConfucius()"
+              onmouseout="mouseOutConfucius()"
+            ></li>
+          </a>
+          <p class="label_Confucius">孔子廟</p>
+        </div>
+        <div class="label_div">
+          <a href=""
+            ><li
+              class="navbar_page_label-button"
+              onmouseover="mouseOverChineseCupid()"
+              onmouseout="mouseOutChineseCupid()"
+            ></li>
+          </a>
+          <p class="label_ChineseCupid">霞海城隍廟</p>
+        </div>
+        <div class="label_div">
+          <a href=""
+            ><li
+              class="navbar_page_label-button"
+              onmouseover="mouseOver207Museum()"
+              onmouseout="mouseOut207Museum()"
+            ></li>
+          </a>
+          <p class="label_207Museum">207博物館</p>
+        </div>
+        <div class="label_div">
+          <a href=""
+            ><li
+              class="navbar_page_label-button"
+              onmouseover="mouseOverMazu()"
+              onmouseout="mouseOutMazu()"
+            ></li>
+          </a>
+          <p class="label_Mazu">天后宮</p>
+        </div>
+      </ul>
+
+      <ul class="navbar_list-button" onclick="navbarListButton()">
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </nav>
+    <aside class="aside">
+      <ul class="aside_text">
+        <li><a href="http://127.0.0.1:5500/index.html">ホームページ</a></li>
+        <li></li>
+        <li><a href="http://127.0.0.1:5500/list.html">List 目次</a></li>
+        <li></li>
+        <li><a href="">制作計画書について</a></li>
+      </ul>
+    </aside>
+
+    <main class="main">
+      <ul class="main_aside">
+        <li class="main_aside_note">
+          <img src="assets/images/confucius_image/note.png" alt="note" />
+          <div>
+            <p class="note_title">孔子廟</p>
+            <p class="note_date">日付：　2022/01/20</p>
+            <p class="note_annotation_title">スタンプ注釈：</p>
+            <p class="note_annotation_word">
+              　スタンプをきれいに押すことは難しい。結局、十回も同じスタンプを押してしまった。
+            </p>
+          </div>
+        </li>
+      </ul>
+
+      <ul class="main_stamp">
+        <input type="radio" id="stamp_control-1" name="control" checked />
+        <input type="radio" id="stamp_control-2" name="control" />
+        <input type="radio" id="stamp_control-3" name="control" />
+        <input type="radio" id="stamp_control-4" name="control" />
+        <input type="radio" id="stamp_control-5" name="control" />
+        <input type="radio" id="stamp_control-6" name="control" />
+        <input type="radio" id="stamp_control-7" name="control" />
+        <input type="radio" id="stamp_control-8" name="control" />
+        <input type="radio" id="stamp_control-9" name="control" />
+        <input type="radio" id="stamp_control-10" name="control" />
+
+        <img
+          class="slide_stamp"
+          src="assets/images/confucius_image/confucius_stamp/confucius-stamp-01.jpg"
+          alt="confucius-stamp-01"
+        />
+        <img
+          class="slide_stamp"
+          src="assets/images/confucius_image/confucius_stamp/confucius-stamp-02.jpg"
+          alt="confucius-stamp-02"
+        />
+        <img
+          class="slide_stamp"
+          src="assets/images/confucius_image/confucius_stamp/confucius-stamp-03.jpg"
+          alt="confucius-stamp-03"
+        />
+        <img
+          class="slide_stamp"
+          src="assets/images/confucius_image/confucius_stamp/confucius-stamp-04.jpg"
+          alt="confucius-stamp-04"
+        />
+        <img
+          class="slide_stamp"
+          src="assets/images/confucius_image/confucius_stamp/confucius-stamp-05.jpg"
+          alt="confucius-stamp-05"
+        />
+        <img
+          class="slide_stamp"
+          src="assets/images/confucius_image/confucius_stamp/confucius-stamp-06.jpg"
+          alt="confucius-stamp-06"
+        />
+        <img
+          class="slide_stamp"
+          src="assets/images/confucius_image/confucius_stamp/confucius-stamp-07.jpg"
+          alt="confucius-stamp-07"
+        />
+        <img
+          class="slide_stamp"
+          src="assets/images/confucius_image/confucius_stamp/confucius-stamp-08.jpg"
+          alt="confucius-stamp-08"
+        />
+        <img
+          class="slide_stamp"
+          src="assets/images/confucius_image/confucius_stamp/confucius-stamp-09.jpg"
+          alt="confucius-stamp-09"
+        />
+        <img
+          class="slide_stamp"
+          src="assets/images/confucius_image/confucius_stamp/confucius-stamp-10.jpg"
+          alt="confucius-stamp-10"
+        />
+
+        <div class="stamp_controls-visible">
+          <label for="stamp_control-1"></label>
+          <label for="stamp_control-2"></label>
+          <label for="stamp_control-3"></label>
+          <label for="stamp_control-4"></label>
+          <label for="stamp_control-5"></label>
+          <label for="stamp_control-6"></label>
+          <label for="stamp_control-7"></label>
+          <label for="stamp_control-8"></label>
+          <label for="stamp_control-9"></label>
+          <label for="stamp_control-10"></label>
+        </div>
+      </ul>
+
+      <ul class="main_word">
+        <p class="main_word_title">学校の根源</p>
+        <p class="main_word_text">
+          　孔子は教育界の先駆者として、最初の私塾を創立していた。孔子廟の塀の上には「萬仞宮牆」の横額がある。というのは、孔子の学識は高すぎて学校にいかなければ、孔子の学識がどれぐらいの深さかを知らないことだ。また、隣の小さな公園の地上には論語の言葉が書いてある。小学校の時に論語を学んだことがあるけど、今にはほとんどの内容や意味を忘れた。逆に日本語で中国語の意味を理解できたのは泣くはずだか笑いはずだかと考えた。<br />　行ったのは、台湾の大学試験の前日であった。孔子廟に試験の祈り活動が行われていた。試験の受験票があれば、活動に参加できる。残念ながら私はもう大学生になった…だが、隣に書道のお守りを書く活動が開催されている。書道の先生に新年の願いを書いてもらうと頼んだ後、お守りを持って大成殿に参拝に行った。殿内では参拝方法が放送されているけど、残念なことに中国語しかなかった。というわけで、参拝方法をご紹介する。まずは、大成殿に入る前に身だしなみを整えておく。次に、孔子の位牌に三回お辞儀をして、願いを孔子に知らせて一回お辞儀をする。これで、参拝のプロセスは完成する。<br />　孔子は君子を培うために六芸を制定した。周りの部屋には、六芸が紹介されている。スタンプを収集しながら、孔子の思想や文化の発展を見学できる。見学するうちに、色々な知識が分かった。孔子廟は私が思っていたより面白かったんだね。
+        </p>
+      </ul>
+
+      <ul class="main_picture">
+        <img
+          src="assets/images/confucius_image/confucius_picture/confucius-picture-0.JPG"
+          alt="confucius_picture-01"
+        />
+        <img
+          src="assets/images/confucius_image/confucius_picture/confucius-picture-01.JPG"
+          alt="confucius_picture-02"
+        />
+        <img
+          src="assets/images/confucius_image/confucius_picture/confucius-picture-02.JPG"
+          alt="confucius_picture-03"
+        />
+        <img
+          src="assets/images/confucius_image/confucius_picture/confucius-picture-03.JPG"
+          alt="confucius_picture-04"
+        />
+        <img
+          src="assets/images/confucius_image/confucius_picture/confucius-picture-04.JPG"
+          alt="confucius_picture-05"
+        />
+        <img
+          src="assets/images/confucius_image/confucius_picture/confucius-picture-05.JPG"
+          alt="confucius_picture-06"
+        />
+        <img
+          src="assets/images/confucius_image/confucius_picture/confucius-picture-06.JPG"
+          alt="confucius_picture-07"
+        />
+        <img
+          src="assets/images/confucius_image/confucius_picture/confucius-picture-07.JPG"
+          alt="confucius_picture-08"
+        />
+        <img
+          src="assets/images/confucius_image/confucius_picture/confucius-picture-08.JPG"
+          alt="confucius_picture-09"
+        />
+        <img
+          src="assets/images/confucius_image/confucius_picture/confucius-picture-09.JPG"
+          alt="confucius_picture-10"
+        />
+      </ul>
+    </main>
+
+    <footer>
+      <div>© 2022　110年度　淡江大学日本語文学系卒業制作</div>
+    </footer>
+
+    <script src="assets/javascript/index_javascript.js"></script>
+    <script src="assets/javascript/confucius_page_javascript.js"></script>
+    <script></script>
+  </body>
+</html>
